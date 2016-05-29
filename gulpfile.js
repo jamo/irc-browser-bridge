@@ -4,8 +4,8 @@ const cache = require('gulp-cached')
 const chmod = require('gulp-chmod')
 
 const paths = {
-  bin: 'bin/**/*',
-  lib: 'lib/**/*'
+  bin: 'bin/**/*.js',
+  lib: 'lib/**/*.js'
 }
 
 gulp.task('lib', () => {
