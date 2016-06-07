@@ -62,6 +62,5 @@ config.postcss = [].concat([
   require('cssnano')({})
 ])
 // END postcss
-
 module.exports = config;
 
